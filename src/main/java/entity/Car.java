@@ -18,6 +18,7 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String model;
     private String mark;
     private int serialNumber;
