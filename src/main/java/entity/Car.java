@@ -19,6 +19,14 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String model;
+    private String mark;
+    private int serialNumber;
+    private int maxSpeed;
+    private int year;
+    private int countOfDoors;
+    private int price;
+    private int engineValue;
+
 
     @ManyToOne(
             cascade = CascadeType.ALL,

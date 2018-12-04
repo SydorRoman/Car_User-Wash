@@ -23,6 +23,11 @@ public class User {
     private int id;
 
     private String name;
+    private String surName;
+    private int age;
+    private String sex;
+    private String email;
+
 
     @OneToOne(
 //            fetch = FetchType.EAGER витягти зразу з паспортм
